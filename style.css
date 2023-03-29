@@ -1,0 +1,139 @@
+/*? Generic */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Sans-serif", Arial, Helvetica neue, sans-serif;
+  font-size: 200%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento";
+  font-size: 5.625rem;
+  /* ?100%=16px=1em em->+/- from parent where rem doesn't */
+  margin: 50px auto 0 auto;
+  /* *top right bottom left */
+  line-height: 1;
+}
+
+h2 {
+  color: #2a9e9e;
+  font-family: Algerian;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  font-family: Mynerve;
+  color: #11999e;
+}
+/* p {
+  font-family: sans-serif;
+} */
+
+/* !top container */
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+/* !Clouds */
+.tc {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bc {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* !Profile */
+.prof {
+  width: 180px;
+}
+/* !MY SKILLS */
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+/* img->monitor */
+.s1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/* chilli img */
+.s2 {
+  width: 25%;
+  float: left;
+  margin-right: 90px;
+  float: right;
+}
+/* c;earing left and right of skill desc p appears down the respective images */
+/* #skill-desc {
+  clear: left;
+}
+
+#skill-desc2 {
+  clear: right;
+} */
+/* Get in Touch */
+
+#skill-desc {
+  text-align: left;
+}
+#last {
+  background-color: #66bfbf;
+}
+.footer-link {
+  color: #11999e;
+}
+
+/* Social Mwedia Links */
+#last {
+  font-family: serif;
+}
+
+#flsp {
+  font-family: Mynerve;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+#flsp {
+  background-image: linear-gradient(
+    to right,
+    #e96666 0%,
+    #fda085 51%,
+    #f6d363 100%
+  );
+}
+#flsp:hover {
+  background-image: linear-gradient(
+    to right,
+    #ffecd2 0%,
+    #fcb69f 51%,
+    #ffecd2 100%
+  );
+}
+/* *Copyright */
+.cr {
+  font-family: fira code;
+  font-size: 20px;
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+}
